@@ -3,13 +3,12 @@
 
 
 <p align="center">
-    <img src="img/structure_diagram" width="80%"/> <br />
+    ![](https://files.mdnice.com/user/18096/7d503ce2-b196-4114-955f-ddbdabae81ca.png)
  <em> 
      Block diagram of the proposed BTS-Net.
     </em>
 </p>
 
-![](https://files.mdnice.com/user/18096/91e52469-d66d-4410-ad5a-2da632824c25.png)
 
 ## Citation
 
