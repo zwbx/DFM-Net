@@ -1,5 +1,13 @@
 # DFM-Net (ACM MM 2021)
-Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection
+[Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection](https://arxiv.org/pdf/2107.01779.pdf)
+
+
+<p align="center">
+    <img src="img/structure_diagram" width="80%"/> <br />
+ <em> 
+     Block diagram of the proposed BTS-Net.
+    </em>
+</p>
 
 ## Citation
 
