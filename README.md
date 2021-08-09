@@ -3,7 +3,7 @@
 
 
 <p align="center">
-    ![](https://files.mdnice.com/user/18096/7d503ce2-b196-4114-955f-ddbdabae81ca.png)
+    <img src="img/struture_diagram.png" width="80%"/> <br />
  <em> 
      Block diagram of the proposed BTS-Net.
     </em>
