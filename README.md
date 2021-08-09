@@ -12,7 +12,7 @@ If you have any questions about our paper, feel free to contact us.
 </p>
 
 ## Features
-- High accuracy: Experiments on 6 public datasets demonstrate that the proposed DFM-Net achieves state-of-the-art performance even compared to non-light-weight model.
+- High accuracy: Experiments on 6 public datasets demonstrate that the proposed DFM-Net achieves state-of-the-art performance even compared to non-light-weight models.
 - High Speed: cost 140ms on CPU (Core i7-8700 CPU), which is 2.2× faster than the prior fastest efficient model A2dele.
 - Low model size: Without any general model compression technology (such as quantification, distillation), its model size is only 8.5Mb, which is 14.9% of the prior smallest model A2dele.
 
