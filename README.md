@@ -1,6 +1,9 @@
 # DFM-Net (ACM MM 2021)
 This repository provides code for paper [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection](https://arxiv.org/pdf/2107.01779.pdf). 
-This method contains hyper light-weight RGB-D SOD model DFM-Net and big version DFN-Net*. If you have any questions about our paper, feel free to contact us. 
+
+This method contains hyper light-weight RGB-D SOD model DFM-Net and its big version DFN-Net*. 
+
+If you have any questions about our paper, feel free to contact us. 
 <p align="center">
     <img src="img/structure_diagram.png" width="80%"/> <br />
  <em> 
