@@ -1,7 +1,7 @@
 # DFM-Net (ACM MM 2021)
 [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection](https://arxiv.org/pdf/2107.01779.pdf)
 <p align="center">
-    <img src="img/struture_diagram.png" width="80%"/> <br />
+    <img src="img/structure_diagram.png" width="80%"/> <br />
  <em> 
      Block diagram of the proposed BTS-Net.
     </em>
@@ -17,14 +17,14 @@
 ## results
 
 <p align="center">
-    <img src="img/quantitative_results.png" width="80%"/> <br />
+    <img src="img/quantitative_results.png" width="95%"/> <br />
  <em> 
      Quantitative comparison with 15 SOTA over 4 metrics (S-measure, max F-measure, max E-measure and MAE) on 6 datasets.
     </em>
 </p>
 
 <p align="center">
-    <img src="img/benchmark.png" width="80%"/> <br />
+    <img src="img/benchmark.png" width="40%"/> <br />
  <em> 
       Performance visualization. The vertical axis indicates the accuracy on SIP. The horizontal axis indicates the CPU speed (FPS). The circle area is proportional
 to the model size.
