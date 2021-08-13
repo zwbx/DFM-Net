@@ -35,6 +35,11 @@ to the model size.
     </em>
 </p>
 
+###  Download
+ - We provide test results of above datasets for DFM-Net and the big version DFM-Net*.
+ - [DFM-Net](https://pan.baidu.com/s/1e3iqZZHGjy2OAUxVwHhDeg) [code: 0ybv].
+ - [DFM-Net*](https://pan.baidu.com/s/1kwp9Y8lbwnXhLgMuaVjgrA) [code: mho4].
+ 
 ## Citation
 
 Please cite the following paper if you use this repository in your reseach
