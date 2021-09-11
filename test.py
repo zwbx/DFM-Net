@@ -11,7 +11,7 @@ import time
 parser = argparse.ArgumentParser()
 parser.add_argument('--testsize', type=int, default=256, help='testing size')
 parser.add_argument('--gpu_id', type=str, default='0', help='select gpu id')
-parser.add_argument('--test_path',type=str,default='E:\pytorch\data/',help='test dataset path')
+parser.add_argument('--test_path',type=str,default='./dataset/',help='test dataset path')
 opt = parser.parse_args()
 
 dataset_path = opt.test_path
@@ -32,7 +32,7 @@ elif opt.gpu_id=='all':
 
 #load the model
 model = DFMNet()
-model.load_state_dict(torch.load('./DFMNet_epoch_300.pth'))
+model.load_state_dict(torch.load('./pretrain/DFMNet_epoch_300.pth'))
 model.cuda()
 model.eval()
 
