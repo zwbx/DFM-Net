@@ -36,7 +36,7 @@ to the model size.
 ## Data Preparation
 
  - Download the raw data from [Here](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i] and a pretrained model (DFMNet_300_epoch.pth) from [Here](https://pan.baidu.com/s/1Dk7CS3tp4P9nES5GdC908Q)
-[code: ko6s]. Note that the parameter file is 8.9Mb, which is 0.4Mb bigger than we claim in the paper because keys denoting parameter name also ocuupy some space. Then put them under the following directory:
+[code: ko6s]. Note that the parameter file is 8.9Mb, which is 0.4Mb bigger than we claim in the paper because keys denoting parameter names also ocuupy some space. Then put them under the following directory:
  
         -dataset\ 
           -NJU2K\  
