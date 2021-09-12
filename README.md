@@ -21,7 +21,7 @@ If you have any questions about our paper, feel free to contact us.
 <p align="center">
     <img src="img/quantitative_results.png" width="95%"/> <br />
  <em> 
-     Quantitative comparison with 15 SOTA over 4 metrics (S-measure, max F-measure, max E-measure and MAE) on 6 datasets.
+     Quantitative comparison with 15 SOTA over 4 metrics (S-measure, max F-measure, max E-measure and MAE) on 6 datasets. Our results are highlighted in bold, and the scores/numbers better than ours are underlined.
     </em>
 </p>
 
@@ -52,7 +52,7 @@ to the model size.
     
     The test maps will be saved to './resutls/'.
    
-- We provide test results of above datasets for DFM-Net and the big version DFM-Net*.
+- We provide testing results of above datasets for DFM-Net and the big version DFM-Net*.
 	[results of DFM-Net](https://pan.baidu.com/s/1e3iqZZHGjy2OAUxVwHhDeg) [code: 0ybv].
 	[results of DFM-Net*](https://pan.baidu.com/s/1kwp9Y8lbwnXhLgMuaVjgrA) [code: mho4].
 
