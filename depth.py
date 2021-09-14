@@ -7,8 +7,6 @@ import timm
 from mobilenet import MobileNetV2Encoder
 
 
-
-"""Fast Segmentation Convolutional Neural Network"""
 import os
 import torch
 import torch.nn as nn
