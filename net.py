@@ -52,7 +52,7 @@ class _ConvBNReLU(nn.Module):
         return self.conv(x)
 
 class _ConvBNSig(nn.Module):
-    """Conv-BN-ReLU"""
+    """Conv-BN-Sigmoid"""
 
     def __init__(self, in_channels, out_channels, kernel_size=3, stride=1, padding=0,dilation=1, **kwargs):
         super(_ConvBNSig, self).__init__()
@@ -227,7 +227,7 @@ class RGBBranch(nn.Module):
         gate = self.mlp(torch.cat((iou, iou_p1, iou_p2), dim=1))
 
 
-        # sgate
+        # DHA
         mc = r1t2 * d1t2
 
         sgate = self.conv_sgate1(upsample(mc + d5_guide, d2.shape[2:]))
@@ -239,21 +239,21 @@ class RGBBranch(nn.Module):
         sgate = self.conv_sgate3(d5_guide1 + d5_guide2 + mc)
 
         dqw1 = gate[:,0:1,...]
-        sgate1 = upsample(sgate[:, 0:1, ...], d1.shape[2:])
+        dha1 = upsample(sgate[:, 0:1, ...], d1.shape[2:])
         dqw2 = gate[:, 1:2, ...]
-        sgate2 = upsample(sgate[:, 1:2, ...], d2.shape[2:])
+        dha2 = upsample(sgate[:, 1:2, ...], d2.shape[2:])
         dqw3 = gate[:, 2:3, ...]
-        sgate3 = upsample(sgate[:, 2:3, ...], d3.shape[2:])
+        dha3 = upsample(sgate[:, 2:3, ...], d3.shape[2:])
         dqw4 = gate[:, 3:4, ...]
-        sgate4 = upsample(sgate[:, 3:4, ...], d4.shape[2:])
+        dha4 = upsample(sgate[:, 3:4, ...], d4.shape[2:])
         dqw5 = gate[:, 4:5, ...]
-        sgate5 = upsample(sgate[:, 4:5, ...], d5.shape[2:])
+        dha5 = upsample(sgate[:, 4:5, ...], d5.shape[2:])
 
-        r1 = r1 + d1 * sgate1 *dqw1
-        r2 = self.base.layer2(r1) + d2 * sgate2 * dqw2
-        r3 = self.base.layer3(r2) + d3 * dqw3 * sgate3
-        r4 = self.base.layer4(r3) + d4 * dqw4 * sgate4
-        r5 = self.base.layer5(r4) + d5 * dqw5 * sgate5
+        r1 = r1 + d1 * dqw1 * dha1 
+        r2 = self.base.layer2(r1) + d2 * dqw2 * dha2
+        r3 = self.base.layer3(r2) + d3 * dqw3 * dha3 
+        r4 = self.base.layer4(r3) + d4 * dqw4 * dha4
+        r5 = self.base.layer5(r4) + d5 * dqw5 * dha5
         r6 = self.ppm(r5)
 
         # Two stage decoder
