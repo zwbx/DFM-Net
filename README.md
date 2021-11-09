@@ -7,7 +7,7 @@ If you have any questions about our paper, feel free to contact us.
 <p align="center">
     <img src="img/structure_diagram.png" width="80%"/> <br />
  <em> 
-     Block diagram of the proposed BTS-Net.
+     Block diagram of the proposed DFM-Net.
     </em>
 </p>
 
