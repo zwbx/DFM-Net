@@ -16,6 +16,14 @@ If you have any questions about our paper, feel free to contact us.
 - High Speed: cost 140ms on CPU (Core i7-8700 CPU), which is 2.2× faster than the prior fastest efficient model A2dele.
 - Low model size: Without any general model compression technology (such as quantification, distillation), its model size is only 8.5Mb, which is 14.9% of the prior smallest model A2dele.
 
+## Easy-to-use to boost your methods
+If you use a depth branch as a complement to RGB branch:
+- Use DQW/DHA to boost performace with extra 0.007/0.042Mb model size increased
+- Tried our light-weight depth backbone to improve efficiency
+
+if you adopt parallel encoders for RGB and depth:
+-refer to our another work [BTS-Net](https://github.com/zwbx/BTS-Net)
+
 ## Performance
 
 <p align="center">
