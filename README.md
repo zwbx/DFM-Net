@@ -67,8 +67,8 @@ to the model size.
 - Evaluate the result maps:
 	You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
     
-- If you need the training code, please send to the email (zhangwenbo@scu.stu.edu.cn). Our another work use the same training code, hyperparameter needs to modify[BTS-Net](https://github.com/zwbx/BTS-Net)
- 
+- If you need the training code, please send to the email (zhangwenbo@scu.stu.edu.cn). Our another work [BTS-Net](https://github.com/zwbx/BTS-Net)
+  use the same training code, hyperparameter needs to be modified.
  
 ## Citation
 
