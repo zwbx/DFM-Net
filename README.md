@@ -22,6 +22,7 @@ If you use a depth branch as a complement to RGB branch:
 - Tried our light-weight depth backbone to improve efficiency
 
 if you adopt parallel encoders for RGB and depth:
+
 -refer to our another work [BTS-Net](https://github.com/zwbx/BTS-Net)
 
 ## Performance
