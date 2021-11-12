@@ -17,7 +17,7 @@ If you have any questions about our paper, feel free to contact us.
 - Low model size: Without any general model compression technology (such as quantification, distillation), its model size is only 8.5Mb, which is 14.9% of the prior smallest model A2dele.
 
 ## Easy-to-use to boost your methods
-If you use a depth branch as a complement to RGB branch:
+If you use a depth branch as an affiliate to RGB branch:
 - Use DQW/DHA to boost performace with extra 0.007/0.042Mb model size increased
 - Tried our light-weight depth backbone to improve efficiency
 
