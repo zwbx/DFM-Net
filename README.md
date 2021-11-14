@@ -19,7 +19,7 @@ If you have any questions about our paper, feel free to contact us.
 ## Easy-to-use to boost your methods
 If you use a depth branch as an affiliate to RGB branch:
 - Use DQW/DHA to boost performace with extra 0.007/0.042Mb model size increased
-- Tried our light-weight depth backbone to improve efficiency
+- Use our light-weight depth backbone to improve efficiency
 
 if you adopt parallel encoders for RGB and depth:
 - refer to our another work [BTS-Net](https://github.com/zwbx/BTS-Net)
