@@ -74,9 +74,10 @@ to the model size.
 
 Please cite the following paper if you use this repository in your reseach
 
-	@inproceedings{Zhang2021DFMNet,
- 	 title={Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection},
-	  author={Wenbo Zhang and Ge-Peng Ji and Zhuo Wang and Keren Fu and Qijun Zhao},
-	  booktitle={ACM MM 2021},
-	  year={2021}
-	}
+	@inproceedings{zhang2021depth,
+  title={Depth quality-inspired feature manipulation for efficient RGB-D salient object detection},
+  author={Zhang, Wenbo and Ji, Ge-Peng and Wang, Zhuo and Fu, Keren and Zhao, Qijun},
+  booktitle={Proceedings of the 29th ACM International Conference on Multimedia},
+  pages={731--740},
+  year={2021}
+}
