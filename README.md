@@ -43,10 +43,11 @@ to the model size.
 
 ## Data Preparation
 
- - Download the raw data from [Here](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i] and a pretrained model (DFMNet_300_epoch.pth) from [Here](https://pan.baidu.com/s/1Dk7CS3tp4P9nES5GdC908Q)
+ - Download the raw data from [Here](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i], training data from [Here](https://pan.baidu.com/s/1ckNlS0uEIPV-iCwVzjutsQ) [code: eb2z], and a pretrained model (DFMNet_300_epoch.pth) from [Here](https://pan.baidu.com/s/1Dk7CS3tp4P9nES5GdC908Q)
 [code: ko6s]. Note that the parameter file is 8.9Mb, which is 0.4Mb bigger than we claim in the paper because keys denoting parameter names also ocuupy some space. Then put them under the following directory:
  
         -dataset\ 
+          -RGBD_train
           -NJU2K\  
           -NLPR\
           ...
@@ -54,7 +55,7 @@ to the model size.
           -DFMNet_300_epoch.pth
           ...
 	  
-## Testing
+## Testing 
 
     Directly run test.py
     
@@ -67,8 +68,8 @@ to the model size.
 - Evaluate the result maps:
 	You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
     
-- If you need the training code, please send to the email (zhangwenbo@scu.stu.edu.cn). Our another work [BTS-Net](https://github.com/zwbx/BTS-Net)
-  use the same training code, hyperparameter needs to be modified.
+## Training
+- Modify setting in options.py and run train.py
  
 ## Citation
 
