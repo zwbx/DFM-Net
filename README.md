@@ -12,7 +12,7 @@ Official repository for paper [Depth Quality-Inspired Feature Manipulation for E
 </p>
 
 
-## &#x26A1; The most efficient RGB-D SOD method
+## The most efficient RGB-D SOD method &#x26A1;
 - Low model size: Model size is only **8.5Mb**, being **6.7/3.1 smaller** than latest lightest models A2dele and MobileSal.
 - High accuracy: SOTA performance on 9 datasets (NJU2K, NLPR, STERE, RGBD135, LFSD, SIP, DUT-RGBD, RedWeb-S, COME). 
 - High Speed: Cost 50ms on CPU (Core i7-8700 CPU), being **2.9/2.4 faster** than the latest fastest models A2dele and MobileSal.
@@ -25,7 +25,7 @@ Official repository for paper [Depth Quality-Inspired Feature Manipulation for E
 </p>
 
 
-## :fire: Jouranl extension 
+##  Jouranl extension :fire:
 [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection (submitted to IJCV)](https://arxiv.org/abs/2208.03918)
 - More comprehensive comparison: 
   - Benchmark results on DUT-RGBD, RedWeb-S, COME are updated. 
@@ -52,9 +52,9 @@ if you adopt parallel encoders for RGB and depth:
 
 ## Data Preparation
 
- - Classic benchmark: training on NJU2K and NLPR. Download the [test data](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i], [training data](https://pan.baidu.com/s/1ckNlS0uEIPV-iCwVzjutsQ) [code: eb2z], and a [pretrained model: DFMNet_300_epoch.pth](https://pan.baidu.com/s/1Dk7CS3tp4P9nES5GdC908Q)[code: ko6s]. &#x1F195; Additional test datasets [RedWeb-S](https://github.com/nnizhang/SMAC) is contained in journal version.
-- &#x1F195; DUT-RGBD benchmark: Download the training and test data in [official repository](https://pan.baidu.com/s/1mhHAXLgoqqLQIb6r-k-hbA). DFM-Net trained  on DUT-RGBD can be downloaded [here]().
-- &#x1F195; COME benchmark: Download the training and test data in [official repository](https://github.com/JingZhang617/cascaded_rgbd_sod). DFM-Net trained on COME can be downloaded [here]().
+ - Classic benchmark: training on NJU2K and NLPR. Download the [test data](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i], [training data](https://pan.baidu.com/s/1ckNlS0uEIPV-iCwVzjutsQ) [code: eb2z], and a [pretrained model: DFMNet_300_epoch.pth](https://pan.baidu.com/s/1Dk7CS3tp4P9nES5GdC908Q)[code: ko6s]. Additional test datasets [RedWeb-S](https://github.com/nnizhang/SMAC)&#x1F195; is contained in journal version.
+-  DUT-RGBD benchmark &#x1F195;: Download the training and test data in [official repository](https://pan.baidu.com/s/1mhHAXLgoqqLQIb6r-k-hbA). DFM-Net trained  on DUT-RGBD can be downloaded [here]().
+- COME benchmark &#x1F195;: Download the training and test data in [official repository](https://github.com/JingZhang617/cascaded_rgbd_sod). DFM-Net trained on COME can be downloaded [here]().
 - Note that the parameter file is 8.9Mb, which is 0.4Mb bigger than we repot in the paper because keys denoting parameter names also ocuupy some space. Then put them under the following directory:
  
         -dataset\ 
@@ -82,7 +82,7 @@ if you adopt parallel encoders for RGB and depth:
 ## Training
 - Modify setting in options.py and run train.py
 
-## &#x1F195; Application on VSOD
+##  Application on VSOD&#x1F195;
 - We provide testing results of 4 datasets (DAVIS, FBMS, MCL, DAVSOD).
   - [Results of DFM-Net](https://pan.baidu.com/s/1jLGP2kV_Z7esOkkY3jKFQw?pwd=58wc).
   - [Results of DFM-Net*](https://pan.baidu.com/s/1EV4_neyES7jAyo0op-XfTA?pwd=pp2w). 
