@@ -113,3 +113,10 @@ Please cite the following paper if you use this repository in your reseach
   	pages={731--740},
 	year={2021}
 	}
+	
+	@artical{zhang2022depth,
+  	title={Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection},
+ 	author={Zhang, Wenbo and  Fu, Keren and  Wang, Zhuo and Ji, Ge-Peng and Zhao, Qijun},
+  	booktitle={arXiv:2208.03918},
+	year={2022}
+	}
