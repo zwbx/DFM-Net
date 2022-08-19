@@ -50,12 +50,36 @@ if you adopt parallel encoders for RGB and depth:
 
 
 
-## Data Preparation
+## Test
 
- - Classic benchmark: training on NJU2K and NLPR. Download the [test data](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i], [training data](https://pan.baidu.com/s/1ckNlS0uEIPV-iCwVzjutsQ) [code: eb2z], and a [pretrained model: DFMNet_300_epoch.pth](https://pan.baidu.com/s/1Dk7CS3tp4P9nES5GdC908Q)[code: ko6s]. Additional test datasets [RedWeb-S](https://github.com/nnizhang/SMAC)&#x1F195; is contained in journal version.
--  DUT-RGBD benchmark &#x1F195;: Download the training and test data in [official repository](https://pan.baidu.com/s/1mhHAXLgoqqLQIb6r-k-hbA). DFM-Net trained  on DUT-RGBD can be downloaded [here]().
-- COME benchmark &#x1F195;: Download the training and test data in [official repository](https://github.com/JingZhang617/cascaded_rgbd_sod). DFM-Net trained on COME can be downloaded [here]().
-- Note that the parameter file is 8.9Mb, which is 0.4Mb bigger than we repot in the paper because keys denoting parameter names also ocuupy some space. Then put them under the following directory:
+Directly run test.py
+    
+    The test maps will be saved to './resutls/'.
+    
+data preparation
+ - Classic benchmark: training on NJU2K and NLPR. 
+   - [test data](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i]
+   - [pretrained model: DFMNet_300_epoch.pth](https://pan.baidu.com/s/1Dk7CS3tp4P9nES5GdC908Q)[code: ko6s]
+   - Additional test datasets [RedWeb-S](https://github.com/nnizhang/SMAC) &#x1F195;, updated in journal version.
+ - DUT-RGBD benchmark &#x1F195;
+   - Download the training and test data in [official repository](https://pan.baidu.com/s/1mhHAXLgoqqLQIb6r-k-hbA). 
+   - [pretrained model for DFMNet](https://pan.baidu.com/s/1GJHvxh2gTLutpM1hfESDNg?pwd=nmw3).
+   - [pretrained model for DFMNet*](https://pan.baidu.com/s/1BWpipPtpfgWF3xmRoXiDFA?pwd=v82i).
+ - COME benchmark &#x1F195;
+   - Download the training and test data in [official repository](https://github.com/JingZhang617/cascaded_rgbd_sod).
+   - [pretrained model for DFMNet](https://pan.baidu.com/s/1fCYF5p9dCC8RXRCLaWUQlg?pwd=iqyf).
+   - [pretrained model for DFMNet*](https://pan.baidu.com/s/1kGEmvknPuY1AtKa5vah15Q?pwd=x9kt).
+
+## Results
+
+- We provide testing results of 9 datasets (NJU2K, NLPR, STERE, RGBD135, LFSD, SIP, DUT-RGBD &#x1F195;, RedWeb-S &#x1F195;, COME &#x1F195;).
+  - [Results of DFM-Net](https://pan.baidu.com/s/1wZyYqYISpRGZATDgKYO4nA?pwd=4jqu).
+  - [Results of DFM-Net*](https://pan.baidu.com/s/1vemT9nfaXoSc_tqSYakSCg?pwd=pax4). 
+
+- Evaluate the result maps:
+	You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
+	
+ - Note that the parameter file is 8.9Mb, which is 0.4Mb bigger than we repot in the paper because keys denoting parameter names also ocuupy some space. Then put them under the following directory:
  
         -dataset\ 
           -RGBD_train
@@ -65,24 +89,14 @@ if you adopt parallel encoders for RGB and depth:
         -pretrain
           -DFMNet_300_epoch.pth
           ...
-	  
-## Testing 
 
-    Directly run test.py
-    
-    The test maps will be saved to './resutls/'.
-   
-- We provide testing results of 9 datasets (NJU2K, NLPR, STERE, RGBD135, LFSD, SIP, &#x1F195; DUT-RGBD, &#x1F195; RedWeb-S, &#x1F195; COME).
-  - [Results of DFM-Net](https://pan.baidu.com/s/1wZyYqYISpRGZATDgKYO4nA?pwd=4jqu).
-  - [Results of DFM-Net*](https://pan.baidu.com/s/1vemT9nfaXoSc_tqSYakSCg?pwd=pax4). 
-
-- Evaluate the result maps:
-	You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
     
 ## Training
+- Download [training data](https://pan.baidu.com/s/1ckNlS0uEIPV-iCwVzjutsQ)(eb2z)
 - Modify setting in options.py and run train.py
 
-##  Application on VSOD&#x1F195;
+
+##  Application on VSOD &#x1F195;
 - We provide testing results of 4 datasets (DAVIS, FBMS, MCL, DAVSOD).
   - [Results of DFM-Net](https://pan.baidu.com/s/1jLGP2kV_Z7esOkkY3jKFQw?pwd=58wc).
   - [Results of DFM-Net*](https://pan.baidu.com/s/1EV4_neyES7jAyo0op-XfTA?pwd=pp2w). 
