@@ -60,16 +60,13 @@ data preparation
  - Classic benchmark: training on NJU2K and NLPR and test on NJU2K, NLPR, STERE, RGBD135, LFSD, SIP. 
    - [test data](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i]
    - [pretrained model for DFMNet](https://pan.baidu.com/s/1pTEByo0OngNJlKCJsTcx-A?pwd=skin)
-   - [pretrained model for DFMNet*](https://pan.baidu.com/s/1DzaV6LLMyUU3XIUi-wYh0w?pwd=sv9d)
    - Additional test datasets [RedWeb-S](https://github.com/nnizhang/SMAC) &#x1F195;, updated in journal version.
  - DUT-RGBD benchmark &#x1F195;
    - Download the training and test data in [official repository](https://pan.baidu.com/s/1mhHAXLgoqqLQIb6r-k-hbA). 
    - [pretrained model for DFMNet](https://pan.baidu.com/s/1GJHvxh2gTLutpM1hfESDNg?pwd=nmw3).
-   - [pretrained model for DFMNet*](https://pan.baidu.com/s/1BWpipPtpfgWF3xmRoXiDFA?pwd=v82i).
  - COME benchmark &#x1F195;
    - Download the training and test data in [official repository](https://github.com/JingZhang617/cascaded_rgbd_sod).
    - [pretrained model for DFMNet](https://pan.baidu.com/s/1fCYF5p9dCC8RXRCLaWUQlg?pwd=iqyf).
-   - [pretrained model for DFMNet*](https://pan.baidu.com/s/1kGEmvknPuY1AtKa5vah15Q?pwd=x9kt).
 
 ## Results
 
