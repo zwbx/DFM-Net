@@ -73,8 +73,8 @@ if you adopt parallel encoders for RGB and depth:
     The test maps will be saved to './resutls/'.
    
 - We provide testing results of 9 datasets (NJU2K, NLPR, STERE, RGBD135, LFSD, SIP, &#x1F195; DUT-RGBD, &#x1F195; RedWeb-S, &#x1F195; COME).
-  - [results of DFM-Net](https://pan.baidu.com/s/1wZyYqYISpRGZATDgKYO4nA?pwd=4jqu).
-  - [results of DFM-Net*](https://pan.baidu.com/s/1vemT9nfaXoSc_tqSYakSCg?pwd=pax4). 
+  - [Results of DFM-Net](https://pan.baidu.com/s/1wZyYqYISpRGZATDgKYO4nA?pwd=4jqu).
+  - [Results of DFM-Net*](https://pan.baidu.com/s/1vemT9nfaXoSc_tqSYakSCg?pwd=pax4). 
 
 - Evaluate the result maps:
 	You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
@@ -84,8 +84,8 @@ if you adopt parallel encoders for RGB and depth:
 
 ## &#x1F195; Application on VSOD
 - We provide testing results of 4 datasets (DAVIS, FBMS, MCL, DAVSOD).
-  - [results of DFM-Net](https://pan.baidu.com/s/1jLGP2kV_Z7esOkkY3jKFQw?pwd=58wc).
-  - [results of DFM-Net*](https://pan.baidu.com/s/1EV4_neyES7jAyo0op-XfTA?pwd=pp2w). 
+  - [Results of DFM-Net](https://pan.baidu.com/s/1jLGP2kV_Z7esOkkY3jKFQw?pwd=58wc).
+  - [Results of DFM-Net*](https://pan.baidu.com/s/1EV4_neyES7jAyo0op-XfTA?pwd=pp2w). 
  
 ## Citation
 
