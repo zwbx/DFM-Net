@@ -59,7 +59,8 @@ Directly run test.py
 data preparation
  - Classic benchmark: training on NJU2K and NLPR. 
    - [test data](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i]
-   - [pretrained model: DFMNet_300_epoch.pth](https://pan.baidu.com/s/1Dk7CS3tp4P9nES5GdC908Q)[code: ko6s]
+   - [pretrained model for DFMNet](https://pan.baidu.com/s/1pTEByo0OngNJlKCJsTcx-A?pwd=skin)
+   - [pretrained model for DFMNet*](https://pan.baidu.com/s/1DzaV6LLMyUU3XIUi-wYh0w?pwd=sv9d)
    - Additional test datasets [RedWeb-S](https://github.com/nnizhang/SMAC) &#x1F195;, updated in journal version.
  - DUT-RGBD benchmark &#x1F195;
    - Download the training and test data in [official repository](https://pan.baidu.com/s/1mhHAXLgoqqLQIb6r-k-hbA). 
