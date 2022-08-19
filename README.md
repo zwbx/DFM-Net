@@ -11,8 +11,11 @@ If you have any questions about our paper, feel free to contact us.
     </em>
 </p>
 
-## Updates
-- (2022/08/19) Code of DFM-Net for Video SOD is released!
+## Jouranl extension: [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection](https://arxiv.org/abs/2208.03918)(submitted to IJCV)
+- More comprehensive comparison: Benchmark results on DUT-RGBD, RedWeb-S, COME are updated. To comprehensively compare the inference speed, we add the metric of maximum-batch inference speed. To unify test enviroment, We re-test infernence speed of ours and compared methods on Unubntu 16.04.
+- Working mechanism analysis: Further statistics and analyses verify the ability of DQFM in distinguishing depth maps of various qualities without any quality labels.
+- Application on efficient VSOD: We applied DFM-Net on efficient VSOD and proposed a joint training strategy for this. Code is released!!! 
+
 ## Features
 - High accuracy: Experiments on 6 public datasets demonstrate that the proposed DFM-Net achieves state-of-the-art performance even compared to non-light-weight models.
 - High Speed: cost 140ms on CPU (Core i7-8700 CPU), which is **2.2× faster than the prior fastest** efficient model A2dele.
