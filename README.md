@@ -1,25 +1,43 @@
-# [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection (ACM MM 2021)](https://arxiv.org/pdf/2107.01779.pdf)
-This repository provides code for paper [](https://arxiv.org/pdf/2107.01779.pdf). 
+# DFM-Net (ACM MM 2021)
+Official repository for paper [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection](https://arxiv.org/pdf/2107.01779.pdf) | [中文版](https://pan.baidu.com/s/1axKXAqBmMmQuPTvTTY_LNg?pwd=jsvr)
 
-This method contains hyper light-weight RGB-D SOD model DFM-Net and its big version DFN-Net*. 
 
-If you have any questions about our paper, feel free to contact us. 
+
+
 <p align="center">
-    <img src="img/structure_diagram.png" width="80%"/> <br />
+    <img src="img/structure_diagram_IJCV.png" width="80%"/> <br />
  <em> 
-     Block diagram of the proposed DFM-Net.
+     Block diagram of DFM-Net.
     </em>
 </p>
 
-## Jouranl extension: [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection](https://arxiv.org/abs/2208.03918)(submitted to IJCV)
-- More comprehensive comparison: Benchmark results on DUT-RGBD, RedWeb-S, COME are updated. To comprehensively compare the inference speed, we add the metric of maximum-batch inference speed. To unify test enviroment, We re-test infernence speed of ours and compared methods on Unubntu 16.04.
-- Working mechanism analysis: Further statistics and analyses verify the ability of DQFM in distinguishing depth maps of various qualities without any quality labels.
-- Application on efficient VSOD: We applied DFM-Net on efficient VSOD and proposed a joint training strategy for this. Code is released!!! 
 
-## Features
-- High accuracy: Experiments on 6 public datasets demonstrate that the proposed DFM-Net achieves state-of-the-art performance even compared to non-light-weight models.
-- High Speed: cost 140ms on CPU (Core i7-8700 CPU), which is **2.2× faster than the prior fastest** efficient model A2dele.
-- Low model size: Without any general model compression technology (such as quantification, distillation), its model size is only **8.5Mb**, which is **14.9% of the prior smallest** model A2dele.
+## &#x26A1;The most efficient RGB-D SOD method
+- Low model size: Model size is only **8.5Mb**, being **6.7/3.1 smaller** than latest lightest models A2dele and MobileSal.
+- High accuracy: SOTA performance on 9 datasets (NJU2K, NLPR, STERE, RGBD135, LFSD, SIP, DUT-RGBD, RedWeb-S, COME). 
+- High Speed: Cost 50ms on CPU (Core i7-8700 CPU), being **2.9/2.4 faster** than the latest fastest models A2dele and MobileSal.
+
+<p align="center">
+    <img src="img/benchmark_vis_IJCV.png" width="60%"/> <br />
+ <em> 
+      Performance visualization. Performance visualization. The vertical axis indicates the average S-measure over six widely used datasets (NJU2K, NLPR, STERE, RGBD135, LFSD, SIP). The horizontal axis indicates CPU speed. The circle area is proportional to the model size. 
+    </em>
+</p>
+
+
+## :fire:Jouranl extension 
+[Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection (submitted to IJCV)](https://arxiv.org/abs/2208.03918)
+- More comprehensive comparison: 
+  - Benchmark results on DUT-RGBD, RedWeb-S, COME are updated. 
+  - Metric of maximum-batch inference speed is added.
+  - We re-test infernence speed of ours and compared methods on Unubntu 16.04.
+- Working mechanism explanation 
+  - Further analyses verify the ability of DQFM in distinguishing depth maps of various qualities without any quality labels.
+- Application on efficient VSOD
+  - One of the lighetest VSOD methods! 
+  - Joint training strategy is proposed.
+
+
 
 ## Easy-to-use to boost your RGB-D SOD network
 If you use a depth branch as an affiliate to RGB branch:
@@ -29,27 +47,15 @@ If you use a depth branch as an affiliate to RGB branch:
 if you adopt parallel encoders for RGB and depth:
 - refer to our another work [BTS-Net](https://github.com/zwbx/BTS-Net)
 
-## Performance
 
-<p align="center">
-    <img src="img/quantitative_results.png" width="95%"/> <br />
- <em> 
-     Quantitative comparison with 15 SOTA over 4 metrics (S-measure, max F-measure, max E-measure and MAE) on 6 datasets. Our results are highlighted in bold, and the scores/numbers better than ours are underlined.
-    </em>
-</p>
 
-<p align="center">
-    <img src="img/benchmark.png" width="40%"/> <br />
- <em> 
-      Performance visualization. The vertical axis indicates the accuracy on SIP. The horizontal axis indicates the CPU speed (FPS). The circle area is proportional
-to the model size.
-    </em>
-</p>
 
 ## Data Preparation
 
- - Download the raw data from [Here](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i], training data from [Here](https://pan.baidu.com/s/1ckNlS0uEIPV-iCwVzjutsQ) [code: eb2z], and a pretrained model (DFMNet_300_epoch.pth) from [Here](https://pan.baidu.com/s/1Dk7CS3tp4P9nES5GdC908Q)
-[code: ko6s]. Note that the parameter file is 8.9Mb, which is 0.4Mb bigger than we claim in the paper because keys denoting parameter names also ocuupy some space. Then put them under the following directory:
+ - Classic benchmark: training on NJU2K and NLPR. Download the [test data](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i], [training data](https://pan.baidu.com/s/1ckNlS0uEIPV-iCwVzjutsQ) [code: eb2z], and a [pretrained model: DFMNet_300_epoch.pth](https://pan.baidu.com/s/1Dk7CS3tp4P9nES5GdC908Q)[code: ko6s]. Additional test datasets [RedWeb-S](https://github.com/nnizhang/SMAC) is contained in journal version.
+- DUT-RGBD benchmark: Download the training and test data in [official repository](https://pan.baidu.com/s/1mhHAXLgoqqLQIb6r-k-hbA). DFM-Net trained on DUT-RGBD can be downloaded [here]().
+- COME benchmark: Download the training and test data in [official repository](https://github.com/JingZhang617/cascaded_rgbd_sod). DFM-Net trained on COME can be downloaded [here]().
+- Note that the parameter file is 8.9Mb, which is 0.4Mb bigger than we repot in the paper because keys denoting parameter names also ocuupy some space. Then put them under the following directory:
  
         -dataset\ 
           -RGBD_train
@@ -66,14 +72,17 @@ to the model size.
     
     The test maps will be saved to './resutls/'.
    
-- We provide testing results of above datasets for DFM-Net and the big version DFM-Net*.
-	[results of DFM-Net](https://pan.baidu.com/s/1e3iqZZHGjy2OAUxVwHhDeg) [code: 0ybv].
-	[results of DFM-Net*](https://pan.baidu.com/s/1kwp9Y8lbwnXhLgMuaVjgrA) [code: mho4].
+- We provide testing results of 9 datasets (NJU2K, NLPR, STERE, RGBD135, LFSD, SIP, DUT-RGBD, RedWeb-S, COME).
+  -[results of DFM-Net](https://pan.baidu.com/s/1wZyYqYISpRGZATDgKYO4nA?pwd=4jqu).
+  -[results of DFM-Net*](https://pan.baidu.com/s/1vemT9nfaXoSc_tqSYakSCg?pwd=pax4). 
 
 - Evaluate the result maps:
 	You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
     
 ## Training
+- Modify setting in options.py and run train.py
+
+## Application on VSOD
 - Modify setting in options.py and run train.py
  
 ## Citation
