@@ -1,5 +1,5 @@
-# DFM-Net (ACM MM 2021)
-This repository provides code for paper [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection](https://arxiv.org/pdf/2107.01779.pdf). 
+# [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection (ACM MM 2021)](https://arxiv.org/pdf/2107.01779.pdf)
+This repository provides code for paper [](https://arxiv.org/pdf/2107.01779.pdf). 
 
 This method contains hyper light-weight RGB-D SOD model DFM-Net and its big version DFN-Net*. 
 
@@ -11,12 +11,14 @@ If you have any questions about our paper, feel free to contact us.
     </em>
 </p>
 
+## Updates
+- (2022/08/19) Code of DFM-Net for Video SOD is released!
 ## Features
 - High accuracy: Experiments on 6 public datasets demonstrate that the proposed DFM-Net achieves state-of-the-art performance even compared to non-light-weight models.
 - High Speed: cost 140ms on CPU (Core i7-8700 CPU), which is **2.2× faster than the prior fastest** efficient model A2dele.
 - Low model size: Without any general model compression technology (such as quantification, distillation), its model size is only **8.5Mb**, which is **14.9% of the prior smallest** model A2dele.
 
-## Easy-to-use to boost your methods
+## Easy-to-use to boost your RGB-D SOD network
 If you use a depth branch as an affiliate to RGB branch:
 - Use DQW/DHA to boost performace with extra 0.007/0.042Mb model size increased
 - Use our light-weight depth backbone to improve efficiency
