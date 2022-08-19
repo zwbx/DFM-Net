@@ -57,7 +57,7 @@ Directly run test.py
     The test maps will be saved to './resutls/'.
     
 data preparation
- - Classic benchmark: training on NJU2K and NLPR. 
+ - Classic benchmark: training on NJU2K and NLPR and test on NJU2K, NLPR, STERE, RGBD135, LFSD, SIP. 
    - [test data](https://pan.baidu.com/s/1wI-bxarzdSrOY39UxZaomQ) [code: 940i]
    - [pretrained model for DFMNet](https://pan.baidu.com/s/1pTEByo0OngNJlKCJsTcx-A?pwd=skin)
    - [pretrained model for DFMNet*](https://pan.baidu.com/s/1DzaV6LLMyUU3XIUi-wYh0w?pwd=sv9d)
