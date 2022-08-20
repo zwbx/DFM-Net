@@ -13,7 +13,7 @@ Official repository for paper [Depth Quality-Inspired Feature Manipulation for E
 
 
 ## The most efficient RGB-D SOD method &#x26A1;
-- Low model size: Model size is only **8.5Mb**, being **6.7/3.1 smaller** than latest lightest models A2dele and MobileSal.
+- Low model size: Model size is only **8.5Mb**, being **6.7/3.1 smaller** than the latest lightest models A2dele and MobileSal.
 - High accuracy: SOTA performance on 9 datasets (NJU2K, NLPR, STERE, RGBD135, LFSD, SIP, DUT-RGBD, RedWeb-S, COME). 
 - High Speed: Cost 50ms on CPU (Core i7-8700 CPU), being **2.9/2.4 faster** than the latest fastest models A2dele and MobileSal.
 
@@ -25,27 +25,27 @@ Official repository for paper [Depth Quality-Inspired Feature Manipulation for E
 </p>
 
 
-##  Jouranl extension :fire:
+##  Journal extension :fire:
 [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection (submitted to IJCV)](https://arxiv.org/abs/2208.03918)
 - More comprehensive comparison: 
   - Benchmark results on DUT-RGBD, RedWeb-S, COME are updated. 
   - Metric of maximum-batch inference speed is added.
-  - We re-test infernence speed of ours and compared methods on Unubntu 16.04.
+  - We re-test the inference speed of ours and compared methods on Ubuntu 16.04.
 - Working mechanism explanation 
   - Further analyses verify the ability of DQFM in distinguishing depth maps of various qualities without any quality labels.
 - Application on efficient VSOD
-  - One of the lighetest VSOD methods! 
+  - One of the lightest VSOD methods! 
   - Joint training strategy is proposed.
 
 
 
 ## Easy-to-use to boost your RGB-D SOD network
-If you use a depth branch as an affiliate to RGB branch:
-- Use DQW/DHA to boost performace with extra 0.007/0.042Mb model size increased
+If you use a depth branch as an affiliate to the RGB branch:
+- Use DQW/DHA to boost performance with extra 0.007/0.042Mb model size increased
 - Use our light-weight depth backbone to improve efficiency
 
 if you adopt parallel encoders for RGB and depth:
-- refer to our another work [BTS-Net](https://github.com/zwbx/BTS-Net)
+- refer to our other work [BTS-Net](https://github.com/zwbx/BTS-Net)
 
 
 
@@ -77,7 +77,7 @@ data preparation
 - Evaluate the result maps:
 	You can evaluate the result maps using the tool in [Matlab Version](http://dpfan.net/d3netbenchmark/) or [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics).
 	
- - Note that the parameter file is 8.9Mb, which is 0.4Mb bigger than we repot in the paper because keys denoting parameter names also ocuupy some space. Then put them under the following directory:
+ - Note that the parameter file is 8.9Mb, which is 0.4Mb bigger than we report in the paper because keys denoting parameter names also occupy some space. Then put them under the following directory:
  
         -dataset\ 
           -RGBD_train
@@ -101,7 +101,7 @@ data preparation
  
 ## Citation
 
-Please cite the following paper if you use this repository in your reseach
+Please cite the following paper if you use this repository in your research
 
 	@inproceedings{zhang2021depth,
   	title={Depth quality-inspired feature manipulation for efficient RGB-D salient object detection},
