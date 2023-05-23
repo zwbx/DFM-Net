@@ -1,5 +1,6 @@
 # DFM-Net (ACM MM 2021)
-Official repository for paper [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection](https://arxiv.org/pdf/2107.01779.pdf) | [中文版](https://pan.baidu.com/s/1axKXAqBmMmQuPTvTTY_LNg?pwd=jsvr)
+Official repository for paper [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection](https://arxiv.org/pdf/2107.01779.pdf) | [中文版](https://pan.baidu.com/s/1axKXAqBmMmQuPTvTTY_LNg?pwd=jsvr) |
+newly released extension: [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection](https://arxiv.org/abs/2208.03918)
 
 
 
@@ -25,8 +26,8 @@ Official repository for paper [Depth Quality-Inspired Feature Manipulation for E
 </p>
 
 
-##  Journal extension :fire:
-[Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection (submitted to journal)](https://arxiv.org/abs/2208.03918)
+##  Extension :fire:
+[Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection](https://arxiv.org/abs/2208.03918)
 - More comprehensive comparison: 
   - Benchmark results on DUT-RGBD, RedWeb-S, COME are updated. 
   - Metric of maximum-batch inference speed is added.
