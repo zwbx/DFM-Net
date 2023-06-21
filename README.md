@@ -3,7 +3,7 @@ Official repository for paper [Depth Quality-Inspired Feature Manipulation for E
 
 ## News
 - 20/Jun/2023🔥[online demo is newly realeased!](http://rgbdsod-krf.natapp4.cc/)
-- 8/Aug/2022 we extend DFM-Net to Video Salient Object Detection task, which refers to Depth [Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection](https://arxiv.org/abs/2208.03918)
+- 8/Aug/2022 we extend DFM-Net to Video Salient Object Detection task, which refers to [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection](https://arxiv.org/abs/2208.03918)
 
 
 
