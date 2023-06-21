@@ -1,8 +1,10 @@
 # DFM-Net (ACM MM 2021)
-Official repository for paper [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection](https://arxiv.org/pdf/2107.01779.pdf) | [中文版](https://pan.baidu.com/s/1axKXAqBmMmQuPTvTTY_LNg?pwd=jsvr) |
-(newly released extension: Depth Quality-Inspired Feature Manipulation for Efficient RGB-D and Video Salient Object Detection](https://arxiv.org/abs/2208.03918)
+Official repository for paper [Depth Quality-Inspired Feature Manipulation for Efficient RGB-D Salient Object Detection](https://arxiv.org/pdf/2107.01779.pdf) | [中文版](https://pan.baidu.com/s/1axKXAqBmMmQuPTvTTY_LNg?pwd=jsvr)
 
-- 20/Jun/2023🔥[online demo](http://mc.nankai.edu.cn/cod)
+## News
+- 20/Jun/2023🔥[online demo](http://rgbdsod-krf.natapp4.cc/)
+- 8/Aug/2022 [paper extended to Video Salient Object Detection](https://arxiv.org/abs/2208.03918)
+
 
 
 
